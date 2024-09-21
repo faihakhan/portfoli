@@ -1,0 +1,267 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    background-color: seagreen;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.my-name{
+    width: 20%;
+    text-decoration: none;
+    height: 100%;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+}
+.navbar-items{
+    width:40%;
+    height: 100%;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-items a{
+    text-decoration: none;
+    color:ivory;
+}
+
+#home{
+    padding-top: 100px; 
+    padding-left: 100px;
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+    background-color:ivory;
+    display: flex;
+}
+
+.head-one{
+    font-size: 65px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+}
+.head-color{
+    color: seagreen;
+}
+.head-two{
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+}
+.home-para{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+.home-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.home-left i{
+    font-size: 40px;
+    color: seagreen;
+}
+.home-right{
+    width: 50%; 
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media{
+    width: 45%;
+    height: 75px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.social-media a{
+    text-decoration: none;
+}
+.icon-container{
+    width: 60px;
+    height: 60px;
+    border: 3px solid seagreen;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 1s;
+}
+.contact-btn{
+    width: 150px;
+    height: 45px;
+    background-color: seagreen;
+    border-radius: 25px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 1s;
+}
+
+#about{
+    padding-top: 100px; 
+    margin-top: 50px;
+    width: 100%;
+    height: 100vh;
+    background-color:white;
+    ;
+    display: flex;
+}
+.about-left{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-right{
+    width: 50%;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-head{
+    font-size: 65px;
+    font-weight: bolder;
+    color: black;
+}
+.about-para{
+    font-size: 20px;
+    color: black;
+}
+
+#skill{
+    padding-top: 100px; 
+    margin-top: -100px; 
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.skill-head{
+    font-size: 65px;
+    font-weight: bolder;
+    color:seagreen;
+}
+.skill-container{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.skill-sub{
+    height: 100%;
+    width: 30%;
+    background-color: ivory;
+    border-radius: 50px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.skill-sub i{
+    font-size: 100px;
+}
+.skill-para{
+    font-size: 20px;
+}
+.skill-icon-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#contact{
+    /* padding-top: 100px; 
+    margin-top: -100px; */
+    width: 100%;
+    height: 100vh;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contact-head{
+    font-size: 65px;
+    font-weight: bolder;
+    color: seagreen;
+}
+.contact-form{
+    width: 50%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-input{
+    width: 80%;
+    height: 10%;
+    padding-left: 20px;
+    border-radius: 30px;
+    border: 5px solid seagreen;
+}
+#message{
+    width: 80%;
+    height: 25%;
+    border-radius: 30px;
+    border: 5px solid seagreen;
+    outline: none;
+}
+#send{
+    width: 200px;
+    height: 45px;
+    background-color: seagreen;
+    border-radius: 25px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 1s;
+}
+
+.contact-btn:hover{
+    transform: scale(1.2);
+}
+.navbar-items a:hover{
+    color: black;
+}
+.icon-container:hover{
+    background-color: seagreen;
+    transform: scale(1.2);
+}
+.icon-container i:hover{
+    color: ivory;
+}
+.contact-form input::placeholder{
+    font-size: 20px;
+}
+#send:hover{
+    transform: scale(1.2);
+}
